@@ -1,8 +1,8 @@
 {
-  "name": "test-site",
+  "name": "gatsby-ts-starter",
   "version": "1.0.0",
   "private": true,
-  "description": "test-site",
+  "description": "gatsby-ts-starter",
   "author": "mahouhou",
   "keywords": [
     "gatsby"
@@ -16,9 +16,15 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@mdx-js/react": "^2.3.0",
     "gatsby": "^5.8.1",
+    "gatsby-plugin-mdx": "^5.8.0",
+    "gatsby-plugin-sass": "^6.8.0",
+    "gatsby-source-filesystem": "^5.8.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-markdown": "^8.0.6",
+    "sass": "^1.61.0"
   },
   "devDependencies": {
     "@types/node": "^18.15.11",
